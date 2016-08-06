@@ -1,0 +1,37 @@
+body {
+	background-image: url(nyan.png);
+	font-family: 'Covered By Your Grace', cursive;
+	font-size: 30px;
+}
+
+.jumbotron {
+	color: #003462;
+}
+
+#inputLabel {
+	color: white;
+}
+#gifInput {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#gifButton:hover {
+	background-color: yellow;
+}
+.cutegif {
+	margin: 10px;
+	color: blue;
+}
+
+.cutegif:hover {
+	background-color: blue;
+	color: white;
+}
+.helloGifs {
+	float: left;
+	padding: 10px;
+}
+.textRating {
+	color: white;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GIFS "R" US</title>
+	<link href='https://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">  
+	<link rel="stylesheet" href="gif.css">
+</head>
+<body>
+<center>
+	<!-- -->
+	<div class="jumbotron">
+		<h1>WELCOME TO GIFS "R" US</h1>
+		<p>Please be patient as the gifs load.</p>
+	</div>
+
+	<!--Need a form for user input of more gif suggestions -->
+	<form id="getGifs">
+		<div class="container">
+		<div class="row">
+			<div class="col-sm-1"></div>
+
+			<div class="col-sm-10">
+				<!-- Directions for user input -->
+				<label id=inputLabel for ="gifInput">What do you want to see?</label>
+				<!-- Creates textbox for user input -->
+				<input type="text" id="gifInput"></input>
+				<!-- Button to submit the gif input -->
+				<input id="gifButton" type="submit" value="Get the Gif">
+			</div>
+
+			<div class="col-sm-1"></div>
+		</div>
+		</div>
+	</form>
+
+	<!-- The default and generated buttons will be pushed to this div from the array -->
+	<br><div id="buttonsHere"></div><br>
+
+	<!--All the gifs go here!-->
+	<!-- Remember to give this an empty() funciton in the js so that it clears each time a button is pushed...-->
+	<div id="gifBucket"></div>
+
+
+<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+<script src="gifs.js"></script>
+</center>
+</body>
+</html>
