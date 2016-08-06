@@ -2,6 +2,8 @@ body {
 	background-image: url(nyan.png);
 	font-family: 'Covered By Your Grace', cursive;
 	font-size: 30px;
+	width: 100%; 
+	height: 100%;
 }
 
 .jumbotron {
