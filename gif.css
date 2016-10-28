@@ -1,50 +1,45 @@
 html, body {
-	font-family: 'Covered By Your Grace', cursive;
+	font-family: 'Patrick Hand SC', cursive;
 	font-size: 30px;
   	height:100%;
   	width: 100%;
   	margin: 0 auto;
   	padding: 0;
-  	background-color: black;
-  	color: white;
-}
-
+  	background-color: black;}
 nav {
-	background-color: red;
+	background-color: #68da23;
 	color: black;
 	margin: 0 auto;
 	padding: 10px;
+	border-bottom: 10px #eaf02c solid;
+	margin-bottom: 10px;
 }
 nav h1 {
 	float: left;
 }
 nav form {
 	text-align: right;
+	padding-right: 5%;
 }
-
-#gifBody {
-	clear: both;
-}
-
-.jumbotron {
-	color: #003462;
+label {
+	float: left;
+	padding-left: 10%;
+	font-size: 40px;
 }
 
 #gifInput {
 	margin-left: 20px;
 	margin-right: 20px;
 }
-
 button, #submitIdea {
 	margin: 10px;
-	color: blue;
+	padding: 5px;
+	font-size: 25px;
 }
-
 button:hover, #submitIdea:hover {
-	background-color: blue;
+	background-color: #d100da;
 	color: white;
 }
-
 img {
 	width: 100%;
 }
