@@ -4,46 +4,42 @@
 	<title>GIFS "R" US</title>
 	<link href='https://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">  
-	<link rel="stylesheet" href="gif.css">
+	<link rel="stylesheet" href="gif.css">	
 </head>
 <body>
-<center>
-	<!-- -->
-	<div class="jumbotron">
-		<h1>WELCOME TO GIFS "R" US</h1>
-		<p>Please be patient as the gifs load.</p>
-	</div>
 
-	<!--Need a form for user input of more gif suggestions -->
-	<form id="getGifs">
+<nav>
+<form id="getGifs">
+	<div class="row">
+		<div class="col-sm-1"></div>
+
+		<div class="col-sm-10">
+			<label id=inputLabel for ="gifInput">gifs-R-US</label>
+			<input type="text" id="gifInput" placeholder="Create a GIF button" required>
+			<input id="submitIdea" type="submit" value="Get the Gif">
+		</div>
+
+		<div class="col-sm-1"></div>
+	</div>
+</form>
+</nav>
+
+<div class="container" id="gifBody">
+	<div id="buttonsHere"></div>
+	<div id="gifBucket">
 		<div class="container">
 		<div class="row">
-			<div class="col-sm-1"></div>
-
-			<div class="col-sm-10">
-				<!-- Directions for user input -->
-				<label id=inputLabel for ="gifInput">What do you want to see?</label>
-				<!-- Creates textbox for user input -->
-				<input type="text" id="gifInput"></input>
-				<!-- Button to submit the gif input -->
-				<input id="gifButton" type="submit" value="Get the Gif">
-			</div>
-
-			<div class="col-sm-1"></div>
+			<div class="col-md-3" id="first"></div>
+			<div class="col-md-3" id="second"></div>
+			<div class="col-md-3" id="third"></div>
+			<div class="col-md-3" id="fourth"></div>
 		</div>
 		</div>
-	</form>
+	</div>
+</div>
 
-	<!-- The default and generated buttons will be pushed to this div from the array -->
-	<br><div id="buttonsHere"></div><br>
-
-	<!--All the gifs go here!-->
-	<!-- Remember to give this an empty() funciton in the js so that it clears each time a button is pushed...-->
-	<div id="gifBucket"></div>
-
-
-<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="gifs.js"></script>
-</center>
+
 </body>
 </html>
