@@ -25,7 +25,7 @@ $(document).ready(function() {
 			$("#fourth").empty();
 			var gifNumber = "&limit=100";
 			var apiKey = "&api_key=dc6zaTOxFJmzC&limit=10";
-			var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + gif + gifNumber +apiKey;
+			var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + gif + gifNumber +apiKey;
 
 			function gifStuff (zero, meow, where) {
 			$.ajax({url: queryURL, method: 'GET'})
