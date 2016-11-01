@@ -19,18 +19,18 @@ nav h1 {
 }
 nav form {
 	text-align: right;
-	padding-right: 5%;
+	/*padding-right: 5%;*/
 }
 label {
 	float: left;
-	padding-left: 10%;
+	padding-left: 10px;
 	font-size: 40px;
 }
 
-#gifInput {
+/*#gifInput {
 	margin-left: 20px;
 	margin-right: 20px;
-}
+}*/
 button, #submitIdea {
 	margin: 10px;
 	padding: 5px;
