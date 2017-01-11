@@ -1,5 +1,5 @@
 # GIFS-R-US
-This app uses the **[Giphy API](https://github.com/Giphy/GiphyAPI)** search to return the top 100 gif results based on the query term. Users can get new gifs by creating new buttons with search terms like "cats." Then when the "cats" button is clicked, 100 cat gifs populate the site. Pause a gif by clicking the image and click a second time to make the gif move again. Live Demo: [https://stephorpilla.github.io/gif6/](https://stephorpilla.github.io/gif6/)
+This app uses the **[Giphy API](https://github.com/Giphy/GiphyAPI)** search to return the top 100 gif results based on the query term. Users can get new gifs by creating new buttons with search terms like "cats." Then when the "cats" button is clicked, 100 cat gifs populate the site. Pause a gif by clicking the image and click a second time to make the gif move again. Live Demo: [https://stephorpilla.github.io/gifSearch/](https://stephorpilla.github.io/gifSearch/)
 
 
 ![recording 13](https://cloud.githubusercontent.com/assets/18673328/21818757/e1652e44-d71d-11e6-9c5d-0c50e15bb6eb.gif)
